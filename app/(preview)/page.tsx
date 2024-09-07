@@ -204,22 +204,7 @@ export default function Home() {
                 <AttachmentIcon />
               </p>
               <p>
-                The useChat hook supports sending attachments along with
-                messages as well as rendering previews on the client. This can
-                be useful for building applications that involve sending images,
-                files, and other media content to the AI provider.
-              </p>
-              <p>
-                {" "}
-                Learn more about the{" "}
-                <Link
-                  className="text-blue-500 dark:text-blue-400"
-                  href="https://sdk.vercel.ai/docs/ai-sdk-ui/chatbot#attachments-experimental"
-                  target="_blank"
-                >
-                  useChat{" "}
-                </Link>
-                hook from Vercel AI SDK.
+                This website is powered by aipi, a free ai api (thanks to The Browser Company).
               </p>
             </div>
           </motion.div>
