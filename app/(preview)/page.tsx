@@ -11,7 +11,6 @@ import { useChat } from "ai/react";
 import { DragEvent, useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { toast } from "sonner";
-import Link from "next/link";
 import { Markdown } from "@/components/markdown";
 
 const getTextFromDataUrl = (dataUrl: string) => {
